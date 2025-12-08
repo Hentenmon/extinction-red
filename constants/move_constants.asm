@@ -249,6 +249,7 @@
 	const FREEZINGLARE
 	const TUNDERUSKICK
 	const FIERY_WRATH
+	const PSYSTRIKE
 	const STRUGGLE     
 DEF NUM_ATTACKS EQU const_value - 1
 

@@ -243,6 +243,9 @@ MoveNames::
 	li "ThndrousKick"
 	li "Fiery Wrath"
 
+; power creep
+    li "Psystrike"
+	
 ; struggle
 	li "Struggle"
 	assert_list_length NUM_ATTACKS

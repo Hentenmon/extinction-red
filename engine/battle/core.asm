@@ -6459,11 +6459,6 @@ LoadPlayerBackPic:
 	hlcoord 1, 5
 	predef_jump CopyUncompressedPicToTilemap
 
-; does nothing since no stats are ever selected (barring glitches)
-DoubleOrHalveSelectedStats:
-	callfar DoubleSelectedStats
-	jpfar HalveSelectedStats
-
 ScrollTrainerPicAfterBattle:
 	jpfar _ScrollTrainerPicAfterBattle
 
@@ -6922,7 +6917,7 @@ InitWildBattle:
 	ld_hli_a_string "GHOST@"
 	ld a, [wCurPartySpecies]
 	push af
-	ld a, GASTLY
+	ld a, MON_GHOST
 	ld [wCurPartySpecies], a
 	ld de, vFrontPic
 	call LoadMonFrontSprite ; load ghost sprite

@@ -7,16 +7,16 @@
 ; - PokedexEntryPointers (see data/pokemon/dex_entries.asm)
 	const_def
 	const NO_MON             
-	const BULBASAUR          
-	const IVYSAUR            
-	const VENUSAUR        
-	const MVENUSAUR   
-	const CHARMANDER         
-	const CHARMELEON         
-	const CHARIZARD
-	const MCHARIZARDX
-	const MCHARIZARDY          
-	const SQUIRTLE           
+	const BULBASAUR    ; 1         
+	const IVYSAUR      ; 2         
+	const VENUSAUR     ; 3      
+	const MVENUSAUR    ; 4  
+	const CHARMANDER   ; 5         
+	const CHARMELEON   ; 6        
+	const CHARIZARD    ; 7
+	const MCHARIZARDX  ; 8
+	const MCHARIZARDY  ; 9        
+	const SQUIRTLE     ; 10      
 	const WARTORTLE          
 	const BLASTOISE
 	const MBLASTOISE          
@@ -45,7 +45,7 @@
 	const A_RAICHU             
 	const SANDSHREW          
 	const SANDSLASH
-	const A_SANDSHREW
+;	const A_SANDSHREW
 	const A_SANDSLASH          
 	const NIDORAN_F          
 	const NIDORINA           
@@ -214,9 +214,9 @@
 	const PINSIR
 	const MPINSIR             
 	const TAUROS 
-	const P_TAUROSC
-	const P_TAUROSA
-	const P_TAUROSB            
+;	const P_TAUROSC
+;	const P_TAUROSA
+;	const P_TAUROSB            
 	const MAGIKARP           
 	const GYARADOS
 	const MGYARADOS           
@@ -252,17 +252,17 @@
 	const DRAGONAIR          
 	const DRAGONITE
 	const MDRAGONITE
-	const MELTAN
-	const MELMETAL
-	const SCREAMTAIL
-	const SANDYSHOCKS          
+;	const MELTAN
+;	const MELMETAL
+;	const SCREAMTAIL
+;	const SANDYSHOCKS          
 	const MEWTWO  
 	const MMEWTWOX
 	const MMEWTWOY           
-	const MEW                
+	const MEW       
+	const FOSSIL_AERODACTYL
 	const FOSSIL_KABUTOPS    
-	const FOSSIL_AERODACTYL  
-;	const MON_GHOST          
+	const MON_GHOST        
 
 DEF NUM_POKEMON_INDEXES EQU const_value - 1
 

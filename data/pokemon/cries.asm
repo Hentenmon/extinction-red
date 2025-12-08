@@ -44,7 +44,7 @@ CryData::
 	mon_cry SFX_CRY_09, $EE, $08 ; ARaichu
 	mon_cry SFX_CRY_00, $20, $40 ; Sandshrew
 	mon_cry SFX_CRY_00, $FF, $FF ; Sandslash
-	mon_cry SFX_CRY_00, $20, $40 ; ASandshrew
+;	mon_cry SFX_CRY_00, $20, $40 ; ASandshrew
 	mon_cry SFX_CRY_00, $FF, $FF ; ASandslash
 	mon_cry SFX_CRY_01, $00, $80 ; NidoranF
 	mon_cry SFX_CRY_01, $2C, $E0 ; Nidorina
@@ -153,7 +153,7 @@ CryData::
 	mon_cry SFX_CRY_07, $00, $FF ; MGengar
 	mon_cry SFX_CRY_17, $FF, $C0 ; Onix
 	mon_cry SFX_CRY_17, $FF, $C0 ; Steelix
-	mon_cry SFX_CRY_17, $FF, $C0 ; Steelix
+	mon_cry SFX_CRY_17, $FF, $C0 ; MSteelix
 	mon_cry SFX_CRY_0D, $88, $20 ; Drowzee
 	mon_cry SFX_CRY_0D, $EE, $40 ; Hypno
 	mon_cry SFX_CRY_20, $20, $E0 ; Krabby
@@ -170,7 +170,7 @@ CryData::
 	mon_cry SFX_CRY_08, $4F, $60 ; AMarowak
 	mon_cry SFX_CRY_12, $80, $C0 ; Hitmonlee
 	mon_cry SFX_CRY_0C, $EE, $C0 ; Hitmonchan
-	mon_cry SFX_CRY_0C, $EE, $C0 ; Hitmonchan
+	mon_cry SFX_CRY_0C, $EE, $C0 ; Hitmontop
 	mon_cry SFX_CRY_0C, $00, $80 ; Lickitung
 	mon_cry SFX_CRY_0C, $00, $80 ; Lickilicky
 	mon_cry SFX_CRY_12, $E6, $DD ; Koffing
@@ -213,9 +213,9 @@ CryData::
 	mon_cry SFX_CRY_14, $00, $80 ; Pinsir
 	mon_cry SFX_CRY_14, $00, $80 ; MPinsir
 	mon_cry SFX_CRY_1D, $11, $40 ; Tauros
-	mon_cry SFX_CRY_1D, $11, $40 ; PTaurosC
-	mon_cry SFX_CRY_1D, $11, $40 ; PTaurosB
-	mon_cry SFX_CRY_1D, $11, $40 ; PTaurosA
+;	mon_cry SFX_CRY_1D, $11, $40 ; PTaurosC
+;	mon_cry SFX_CRY_1D, $11, $40 ; PTaurosA
+;	mon_cry SFX_CRY_1D, $11, $40 ; PTaurosB
 	mon_cry SFX_CRY_17, $80, $00 ; Magikarp
 	mon_cry SFX_CRY_17, $00, $80 ; Gyarados
 	mon_cry SFX_CRY_17, $00, $80 ; MGyarados
@@ -224,12 +224,12 @@ CryData::
 	mon_cry SFX_CRY_1A, $88, $60 ; Eevee
 	mon_cry SFX_CRY_1A, $AA, $FF ; Vaporeon
 	mon_cry SFX_CRY_1A, $3D, $80 ; Jolteon
+	mon_cry SFX_CRY_1A, $10, $20 ; Flareon
 	mon_cry SFX_CRY_0E, $FF, $FF ; Espeon
 	mon_cry SFX_CRY_0E, $FF, $FF ; Umbreon
 	mon_cry SFX_CRY_0E, $FF, $FF ; Leafeon
 	mon_cry SFX_CRY_0E, $FF, $FF ; Glaceon
 	mon_cry SFX_CRY_0E, $FF, $FF ; Sylveon
-	mon_cry SFX_CRY_1A, $10, $20 ; Flareon
 	mon_cry SFX_CRY_25, $AA, $FF ; Porygon
 	mon_cry SFX_CRY_25, $AA, $FF ; Porygon2
 	mon_cry SFX_CRY_25, $AA, $FF ; PorygonZ
@@ -251,15 +251,15 @@ CryData::
 	mon_cry SFX_CRY_0F, $40, $80 ; Dragonair
 	mon_cry SFX_CRY_0F, $3C, $C0 ; Dragonite
 	mon_cry SFX_CRY_0F, $3C, $C0 ; MDragonite
-	mon_cry SFX_CRY_0E, $FF, $1C ; Meltan
-	mon_cry SFX_CRY_11, $F0, $60 ; Melmetal
-	mon_cry SFX_CRY_0E, $FA, $80 ; Scream Tail
-	mon_cry SFX_CRY_1C, $1F, $DD ; Sandy Shocks
+;	mon_cry SFX_CRY_0E, $FF, $1C ; Meltan
+;	mon_cry SFX_CRY_11, $F0, $60 ; Melmetal
+;	mon_cry SFX_CRY_0E, $FA, $80 ; Scream Tail
+;	mon_cry SFX_CRY_1C, $1F, $DD ; Sandy Shocks
 	mon_cry SFX_CRY_1E, $99, $FF ; Mewtwo
 	mon_cry SFX_CRY_1E, $99, $FF ; MMewtwoX
 	mon_cry SFX_CRY_1E, $99, $FF ; MMewtwoY
 	mon_cry SFX_CRY_1E, $EE, $FF ; Mew
-	mon_cry SFX_CRY_00, $00, $00 ; MissingNo.
-	mon_cry SFX_CRY_00, $00, $00 ; MissingNo.
-;	mon_cry SFX_CRY_00, $00, $00 ; MissingNo.
+	mon_cry SFX_CRY_00, $00, $00 ; MissingNo
+	mon_cry SFX_CRY_00, $00, $00 ; MissingNo
+	mon_cry SFX_CRY_00, $00, $00 ; MissingNo
 	assert_table_length NUM_POKEMON_INDEXES

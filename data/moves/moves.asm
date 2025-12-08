@@ -236,7 +236,7 @@ Moves:
 	move ENERGY_BALL,  SPECIAL_DOWN_SIDE_EFFECT,    90,	GRASS,        100, 10 
 	move FRENZY_PLANT, HYPER_BEAM_EFFECT,	       150,	GRASS,         90,  5  
 
-;	move ZAP_CANNON,   PARALYZE_EFFECT,            120, ELECTRIC,      50,  5
+;	move ZAP_CANNON,   PARALYZE_EFFECT,            120, ELECTRIC,      50,  5 ; note, didn't work
 	move SHOCK_WAVE,   SWIFT_EFFECT,                60, ELECTRIC,     100, 20
 	move WILD_CHARGE,  RECOIL_EFFECT,               90, ELECTRIC,     100, 15
 	move VOLT_TACKLE,  RECOIL_EFFECT,              120, ELECTRIC,     100, 15
@@ -271,7 +271,10 @@ Moves:
 
 	move FREEZINGLARE, FREEZE_SIDE_EFFECT1,         90, PSYCHIC_TYPE, 100, 10
 	move TUNDERUSKICK, DEFENSE_DOWN1_EFFECT,        90, FIGHTING,     100, 10
-	move FIERY_WRATH, FLINCH_SIDE_EFFECT2,         90, DARK,         100, 10
+	move FIERY_WRATH,  FLINCH_SIDE_EFFECT2,         90, DARK,         100, 10
+
+; power creep
+	move PSYSTRIKE,    SPECIAL_DOWN1_EFFECT,       100, PSYCHIC_TYPE, 100, 10
 
 ; struggle
 	move STRUGGLE,     RECOIL_EFFECT,               50, BIRD,         100, 10

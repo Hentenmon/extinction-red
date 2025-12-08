@@ -173,11 +173,14 @@ ROMX $29
 ROMX $2A
 	"Text 11"
 ROMX $2B
-	"Pokédex Text"
+;	"Pokédex Text"
+    "Pokédex Text1"
 ROMX $2C
 	"Move Names"
 ROMX $2D
 	"Trainer Pics"
+ROMX $2E
+    "Pokédex Text2"
 WRAM0
 	"Audio RAM"
 	org $c100

@@ -38,7 +38,7 @@ PokedexEntryPointers:
 	dw ARaichuDexEntry
 	dw SandshrewDexEntry
 	dw SandslashDexEntry
-	dw ASandshrewDexEntry
+;	dw ASandshrewDexEntry
 	dw ASandslashDexEntry
 	dw NidoranFDexEntry
 	dw NidorinaDexEntry
@@ -207,9 +207,9 @@ PokedexEntryPointers:
 	dw PinsirDexEntry
 	dw MPinsirDexEntry
 	dw TaurosDexEntry
-	dw PTaurosCDexEntry
-	dw PTaurosADexEntry
-	dw PTaurosBDexEntry
+;	dw PTaurosCDexEntry
+;	dw PTaurosADexEntry
+;	dw PTaurosBDexEntry
 	dw MagikarpDexEntry
 	dw GyaradosDexEntry
 	dw MGyaradosDexEntry
@@ -245,17 +245,17 @@ PokedexEntryPointers:
 	dw DragonairDexEntry
 	dw DragoniteDexEntry
 	dw MDragoniteDexEntry
-	dw MeltanDexEntry
-	dw MelmetalDexEntry
-	dw ScreamTailDexEntry
-	dw SandyShocksDexEntry
+;	dw MeltanDexEntry
+;	dw MelmetalDexEntry
+;	dw ScreamTailDexEntry
+;	dw SandyShocksDexEntry
 	dw MewtwoDexEntry
     dw MMewtwoXDexEntry
 	dw MMewtwoYDexEntry
 	dw MewDexEntry
 	dw MissingNoDexEntry
 	dw MissingNoDexEntry
-;	dw MissingNoDexEntry
+	dw MissingNoDexEntry
 	assert_table_length NUM_POKEMON_INDEXES
 
 ; string: species name
@@ -535,12 +535,12 @@ SandslashDexEntry:
 	text_far _SandslashDexEntry
 	text_end
 
-ASandshrewDexEntry:
-	db "MOUSE@"
-	db 7
-	dw 400
-	text_far _SandshrewDexEntry
-	text_end
+; ASandshrewDexEntry:
+; 	db "MOUSE@"
+; 	db 7
+; 	dw 400
+; 	text_far _SandshrewDexEntry
+; 	text_end
 
 ASandslashDexEntry:
 	db "MOUSE@"
@@ -1718,26 +1718,26 @@ TaurosDexEntry:
 	text_far _TaurosDexEntry
 	text_end
 
-PTaurosCDexEntry:
-	db "WILD BULL@"
-	db 14
-	dw 1150
-	text_far _PTaurosCDexEntry
-	text_end
-
-PTaurosADexEntry:
-	db "WILD BULL@"
-	db 14
-	dw 1100
-	text_far _PTaurosADexEntry
-	text_end
-
-PTaurosBDexEntry:
-	db "WILD BULL@"
-	db 14
-	dw 850
-	text_far _PTaurosBDexEntry
-	text_end
+; PTaurosCDexEntry:
+; 	db "WILD BULL@"
+; 	db 14
+; 	dw 1150
+; 	text_far _PTaurosCDexEntry
+; 	text_end
+; 
+; PTaurosADexEntry:
+; 	db "WILD BULL@"
+; 	db 14
+; 	dw 1100
+; 	text_far _PTaurosADexEntry
+; 	text_end
+; 
+; PTaurosBDexEntry:
+; 	db "WILD BULL@"
+; 	db 14
+; 	dw 850
+; 	text_far _PTaurosBDexEntry
+; 	text_end
 
 MagikarpDexEntry:
 	db "FISH@"
@@ -1983,33 +1983,33 @@ MDragoniteDexEntry:
 	text_far _MDragoniteDexEntry
 	text_end
 
-MeltanDexEntry:
-    db "HEX NUT@"
-	db 2
-	dw 80
-	text_far _MeltanDexEntry
-	text_end
-	
-MelmetalDexEntry:
-	db "HEX NUT@"
-	db 25
-	dw 8000
-	text_far _MelmetalDexEntry
-	text_end
-
-ScreamTailDexEntry:
-    db "PARADOX@"
-	db 12
-	dw 80
-	text_far _ScreamTailDexEntry
-	text_end
-	
-SandyShocksDexEntry:
-    db "PARADOX@"
-	db 23
-	dw 600
-	text_far _SandyShocksDexEntry
-	text_end
+; MeltanDexEntry:
+;     db "HEX NUT@"
+; 	db 2
+; 	dw 80
+; 	text_far _MeltanDexEntry
+; 	text_end
+; 	
+; MelmetalDexEntry:
+; 	db "HEX NUT@"
+; 	db 25
+; 	dw 8000
+; 	text_far _MelmetalDexEntry
+; 	text_end
+; 
+; ScreamTailDexEntry:
+;     db "PARADOX@"
+; 	db 12
+; 	dw 80
+; 	text_far _ScreamTailDexEntry
+; 	text_end
+; 	
+; SandyShocksDexEntry:
+;     db "PARADOX@"
+; 	db 23
+; 	dw 600
+; 	text_far _SandyShocksDexEntry
+; 	text_end
 
 MewtwoDexEntry:
 	db "GENETIC@"
@@ -2044,4 +2044,5 @@ MissingNoDexEntry:
 	db 10 ; 1.0 m
 	dw 100 ; 10.0 kg
 	db "コメント　さくせいちゅう@" ; コメント作成中 (Comment to be written)
+
 	

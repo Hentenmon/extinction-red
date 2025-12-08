@@ -20,4 +20,4 @@
 	; end
 
 	db BANK(AVulpixPicFront)
-	assert BANK(VAulpixPicFront) == BANK(AVulpixPicBack)
+	assert BANK(AVulpixPicFront) == BANK(AVulpixPicBack)

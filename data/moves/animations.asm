@@ -177,6 +177,7 @@ AttackAnimationPointers:
 	dw HurricaneAnim
 	dw SludgeBombAnim
 	dw PoisonJabAnim
+	dw DrillRunAnim
 	dw MudSlapAnim
 	dw MudShotAnim
 	dw EarthPowerAnim
@@ -237,6 +238,7 @@ AttackAnimationPointers:
 	dw FreezingGlareAnim
 	dw ThunderousKickAnim
 	dw FieryWrathAnim
+	dw PsystrikeAnim
 	dw StruggleAnim
 	assert_table_length NUM_ATTACKS
 
@@ -1677,6 +1679,15 @@ FieryWrathAnim:
 	battle_anim NO_MOVE, SE_WAVY_SCREEN
 	battle_anim FLAMETHROWER, SUBANIM_0_WATER_COLUMNS, 1, 6
 	battle_anim NO_MOVE, SUBANIM_0_WATER_COLUMNS, 1, 6
+	db -1 ; end
+
+PsystrikeAnim:
+	battle_anim LEECH_SEED, SE_DARK_SCREEN_PALETTE
+	battle_anim NO_MOVE, SE_SPIRAL_BALLS_INWARD
+	battle_anim NO_MOVE, SE_DARK_SCREEN_FLASH
+	battle_anim PSYCHIC_M, SE_FLASH_SCREEN_LONG
+	battle_anim NO_MOVE, SE_WAVY_SCREEN
+	battle_anim HI_JUMP_KICK, SUBANIM_1_STAR_BIG_MOVING, 1, 6
 	db -1 ; end
 
 BallTossAnim:
