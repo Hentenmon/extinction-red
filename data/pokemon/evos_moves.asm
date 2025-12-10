@@ -245,8 +245,8 @@ EvosMovesPointerTable:
 	dw MMewtwoXEvosMoves
 	dw MMewtwoYEvosMoves
 	dw MewEvosMoves
-	dw FossilKabutopsEvosMoves
-	dw FossilAerodactylEvosMoves
+;	dw FossilKabutopsEvosMoves
+;	dw FossilAerodactylEvosMoves
 	dw MonGhostEvosMoves
 	assert_table_length NUM_POKEMON_INDEXES
 
@@ -4886,8 +4886,8 @@ MewEvosMoves:
 	db 100, SPLASH
 	db 0
 
-FossilKabutopsEvosMoves:
-FossilAerodactylEvosMoves:
+; FossilKabutopsEvosMoves:
+; FossilAerodactylEvosMoves:
 MonGhostEvosMoves:
 ; Evolutions
     db 0

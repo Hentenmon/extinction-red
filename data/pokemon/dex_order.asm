@@ -253,7 +253,7 @@ PokedexOrder:
 	db DEX_MMEWTWOX
 	db DEX_MMEWTWOY
 	db DEX_MEW
-	db 0
-	db 0
+;	db 0
+;	db 0
 	db 0
 	assert_table_length NUM_POKEMON_INDEXES

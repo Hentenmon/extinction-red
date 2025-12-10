@@ -260,8 +260,6 @@
 	const MMEWTWOX
 	const MMEWTWOY           
 	const MEW       
-	const FOSSIL_AERODACTYL
-	const FOSSIL_KABUTOPS    
 	const MON_GHOST        
 
 DEF NUM_POKEMON_INDEXES EQU const_value - 1

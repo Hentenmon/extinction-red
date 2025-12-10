@@ -259,7 +259,7 @@ CryData::
 	mon_cry SFX_CRY_1E, $99, $FF ; MMewtwoX
 	mon_cry SFX_CRY_1E, $99, $FF ; MMewtwoY
 	mon_cry SFX_CRY_1E, $EE, $FF ; Mew
-	mon_cry SFX_CRY_00, $00, $00 ; MissingNo
-	mon_cry SFX_CRY_00, $00, $00 ; MissingNo
+;	mon_cry SFX_CRY_00, $00, $00 ; MissingNo
+;	mon_cry SFX_CRY_00, $00, $00 ; MissingNo
 	mon_cry SFX_CRY_00, $00, $00 ; MissingNo
 	assert_table_length NUM_POKEMON_INDEXES

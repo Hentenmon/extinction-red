@@ -1,5 +1,5 @@
 AerodactylFossil:
-	ld a, FOSSIL_AERODACTYL
+	ld a, DITTO
 	ld [wCurPartySpecies], a
 	call DisplayMonFrontSpriteInBox
 	call EnableAutoTextBoxDrawing
@@ -11,7 +11,7 @@ AerodactylFossilText::
 	text_end
 
 KabutopsFossil:
-	ld a, FOSSIL_KABUTOPS
+	ld a, DITTO
 	ld [wCurPartySpecies], a
 	call DisplayMonFrontSpriteInBox
 	call EnableAutoTextBoxDrawing

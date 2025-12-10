@@ -253,7 +253,7 @@ MonsterNames::
 	dname "<MEGA>MewtwoX"
 	dname "<MEGA>MewtwoY"
 	dname "Mew"
-	dname "MissingNo"
-	dname "MissingNo"
+;	dname "MissingNo"
+;	dname "MissingNo"
 	dname "MissingNo"
 	assert_table_length NUM_POKEMON_INDEXES

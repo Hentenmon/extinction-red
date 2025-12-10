@@ -9,16 +9,16 @@ UncompressMonSprite::
 	ld a, [hl]
 	ld [wSpriteInputPtr+1], a
 	ld a, [wCurPartySpecies]
-	cp FOSSIL_KABUTOPS
-	jr z, .RecallBank
-	cp FOSSIL_AERODACTYL
-	jr z, .RecallBank
+;	cp FOSSIL_KABUTOPS
+;	jr z, .RecallBank
+;	cp FOSSIL_AERODACTYL
+;	jr z, .RecallBank
 	cp MON_GHOST
 	jr z, .RecallBank
 	ld a, [wMonHPicBank]
 	jr .GotBank
 .RecallBank
-	ld a, BANK(FossilKabutopsPic)
+	ld a, BANK(GhostPic)
 .GotBank
 	jp UncompressSpriteData
 

@@ -468,6 +468,10 @@ UpdateStatDone:
 	ld de, wEnemyMoveNum
 	ld bc, wEnemyMonMinimized
 .playerTurn
+	; check if we used an X-stat up item
+	ld a, [wAltAnimationID]
+	and a
+	jr nz, .notMinimize
 	ld a, [de]
 	cp MINIMIZE
 	jr nz, .notMinimize
@@ -1696,7 +1700,6 @@ PlayAlternativeAnimation2:
 	ld [wAltAnimationID], a
 	jr GotAnimationID
 
-
 PlayCurrentMoveAnimation:
 ; animation at MOVENUM will be played unless MOVENUM is 0
 ; resets wAnimationType
@@ -1733,7 +1736,6 @@ PlayBattleAnimationGotID:
 	pop de
 	pop hl
 	ret
-
 
 PlayAlternativeAnimation:
 	ld [wAltAnimationID], a

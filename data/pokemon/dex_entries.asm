@@ -253,8 +253,8 @@ PokedexEntryPointers:
     dw MMewtwoXDexEntry
 	dw MMewtwoYDexEntry
 	dw MewDexEntry
-	dw MissingNoDexEntry
-	dw MissingNoDexEntry
+;	dw MissingNoDexEntry
+;	dw MissingNoDexEntry
 	dw MissingNoDexEntry
 	assert_table_length NUM_POKEMON_INDEXES
 
