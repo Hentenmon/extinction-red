@@ -14,7 +14,7 @@ UncompressMonSprite::
 ;	cp FOSSIL_AERODACTYL
 ;	jr z, .RecallBank
 	cp MON_GHOST
-	jr z, .RecallBank
+	jr nc, .RecallBank
 	ld a, [wMonHPicBank]
 	jr .GotBank
 .RecallBank

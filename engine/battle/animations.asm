@@ -369,9 +369,11 @@ LoadMoveAnimationTiles:
 	ld a, [wWhichBattleAnimTileset]
 	add a
 	add a
-	ld hl, MoveAnimationTilesPointers
 	ld e, a
 	ld d, 0
+	callfar _LoadMoveAnimationTiles
+    ret
+/*	ld hl, MoveAnimationTilesPointers
 	add hl, de
 	ld a, [hli]
 	ld [wTempTilesetNumTiles], a ; number of tiles
@@ -402,7 +404,7 @@ MoveAnimationTiles2:
 	INCBIN "gfx/battle/move_anim_0.2bpp"
 
 MoveAnimationTiles1:
-	INCBIN "gfx/battle/move_anim_1.2bpp"
+	INCBIN "gfx/battle/move_anim_1.2bpp" */
 
 SlotMachineTiles2:
 IF DEF(_RED)

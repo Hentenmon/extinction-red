@@ -258,7 +258,6 @@ DEF CANNOT_MOVE EQU $ff
 	; Separate other battle animations
 	const_def
 	const NO_ANIM
-
 	const SHOWPIC_ANIM
 	const STATUS_AFFECTED_ANIM
 	const ANIM_A8
