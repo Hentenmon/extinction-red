@@ -44,7 +44,7 @@ CryData::
 	mon_cry SFX_CRY_09, $EE, $08 ; ARaichu
 	mon_cry SFX_CRY_00, $20, $40 ; Sandshrew
 	mon_cry SFX_CRY_00, $FF, $FF ; Sandslash
-;	mon_cry SFX_CRY_00, $20, $40 ; ASandshrew
+	mon_cry SFX_CRY_00, $20, $40 ; ASandshrew
 	mon_cry SFX_CRY_00, $FF, $FF ; ASandslash
 	mon_cry SFX_CRY_01, $00, $80 ; NidoranF
 	mon_cry SFX_CRY_01, $2C, $E0 ; Nidorina
@@ -213,9 +213,9 @@ CryData::
 	mon_cry SFX_CRY_14, $00, $80 ; Pinsir
 	mon_cry SFX_CRY_14, $00, $80 ; MPinsir
 	mon_cry SFX_CRY_1D, $11, $40 ; Tauros
-;	mon_cry SFX_CRY_1D, $11, $40 ; PTaurosC
-;	mon_cry SFX_CRY_1D, $11, $40 ; PTaurosA
-;	mon_cry SFX_CRY_1D, $11, $40 ; PTaurosB
+	mon_cry SFX_CRY_1D, $11, $40 ; PTaurosC
+	mon_cry SFX_CRY_1D, $11, $40 ; PTaurosA
+	mon_cry SFX_CRY_1D, $11, $40 ; PTaurosB
 	mon_cry SFX_CRY_17, $80, $00 ; Magikarp
 	mon_cry SFX_CRY_17, $00, $80 ; Gyarados
 	mon_cry SFX_CRY_17, $00, $80 ; MGyarados
@@ -251,10 +251,10 @@ CryData::
 	mon_cry SFX_CRY_0F, $40, $80 ; Dragonair
 	mon_cry SFX_CRY_0F, $3C, $C0 ; Dragonite
 	mon_cry SFX_CRY_0F, $3C, $C0 ; MDragonite
-;	mon_cry SFX_CRY_0E, $FF, $1C ; Meltan
-;	mon_cry SFX_CRY_11, $F0, $60 ; Melmetal
-;	mon_cry SFX_CRY_0E, $FA, $80 ; Scream Tail
-;	mon_cry SFX_CRY_1C, $1F, $DD ; Sandy Shocks
+	mon_cry SFX_CRY_0E, $FF, $1C ; Meltan
+	mon_cry SFX_CRY_11, $F0, $60 ; Melmetal
+	mon_cry SFX_CRY_0E, $FA, $80 ; Scream Tail
+	mon_cry SFX_CRY_1C, $1F, $DD ; Sandy Shocks
 	mon_cry SFX_CRY_1E, $99, $FF ; Mewtwo
 	mon_cry SFX_CRY_1E, $99, $FF ; MMewtwoX
 	mon_cry SFX_CRY_1E, $99, $FF ; MMewtwoY

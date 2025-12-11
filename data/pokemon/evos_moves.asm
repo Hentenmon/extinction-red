@@ -38,6 +38,7 @@ EvosMovesPointerTable:
 	dw ARaichuEvosMoves
 	dw SandshrewEvosMoves
 	dw SandslashEvosMoves
+	dw ASandshrewEvosMoves
 	dw ASandslashEvosMoves
 	dw NidoranFEvosMoves
 	dw NidorinaEvosMoves
@@ -206,6 +207,9 @@ EvosMovesPointerTable:
 	dw PinsirEvosMoves
 	dw MPinsirEvosMoves
 	dw TaurosEvosMoves
+	dw PTaurosCEvosMoves
+	dw PTaurosAEvosMoves
+	dw PTaurosBEvosMoves
 	dw MagikarpEvosMoves
 	dw GyaradosEvosMoves
 	dw MGyaradosEvosMoves
@@ -241,6 +245,10 @@ EvosMovesPointerTable:
 	dw DragonairEvosMoves
 	dw DragoniteEvosMoves
 	dw MDragoniteEvosMoves
+	dw MeltanEvosMoves
+	dw MelmetalEvosMoves
+	dw ScreamTailEvosMoves
+	dw SandyShocksEvosMoves
 	dw MewtwoEvosMoves
 	dw MMewtwoXEvosMoves
 	dw MMewtwoYEvosMoves
@@ -980,6 +988,26 @@ SandslashEvosMoves:
 	db 35, DIG
 	db 39, SWORDS_DANCE
 	db 42, EARTHQUAKE
+	db 0
+
+ASandshrewEvosMoves:
+; Evolutions
+    db EVOLVE_ITEM, ICE_STONE, 1, A_SANDSLASH
+	db 0
+; Learnset
+	db 1, DEFENSE_CURL
+	db 1, SCRATCH
+	db 6, POWDER_SNOW
+	db 9, MIST
+	db 12, HEADBUTT
+	db 15, FURY_SWIPES
+	db 21, SWIFT
+	db 28, ICICLE_SPEAR
+	db 34, SLASH
+	db 37, IRON_HEAD
+	db 41, SWORDS_DANCE
+	db 44, BLIZZARD
+	db 48, ICICLE_CRASH
 	db 0
 
 ASandslashEvosMoves:
@@ -4162,6 +4190,63 @@ TaurosEvosMoves:
 	db 55, HYPER_BEAM
 	db 0
 
+PTaurosCEvosMoves:
+; Evolutions
+	db 0
+; Learnset
+    db 1, TACKLE
+	db 1, TAIL_WHIP
+	db 10, RAGE
+	db 15, LOW_KICK
+	db 20, HORN_ATTACK
+	db 25, STOMP
+	db 30, ZEN_HEADBUTT
+	db 35, TAKE_DOWN
+	db 40, REST
+	db 45, THRASH
+	db 50, DOUBLE_EDGE
+	db 55, HYPER_BEAM
+	db 60, CLOSE_COMBAT
+	db 0
+
+PTaurosAEvosMoves:
+; Evolutions
+	db 0
+; Learnset
+    db 1, TACKLE
+	db 1, TAIL_WHIP
+	db 10, RAGE
+	db 15, LOW_KICK
+	db 20, HORN_ATTACK
+	db 25, STOMP
+	db 30, ZEN_HEADBUTT
+	db 35, TAKE_DOWN
+	db 40, REST
+	db 45, THRASH
+	db 50, DOUBLE_EDGE
+	db 55, SCALD
+	db 60, CLOSE_COMBAT
+	db 0
+
+PTaurosBEvosMoves:
+; Evolutions
+	db 0
+; Learnset
+    db 1, TACKLE
+	db 1, TAIL_WHIP
+	db 10, RAGE
+	db 15, LOW_KICK
+	db 20, HORN_ATTACK
+	db 25, STOMP
+	db 30, ZEN_HEADBUTT
+	db 35, TAKE_DOWN
+	db 40, REST
+	db 45, THRASH
+	db 50, DOUBLE_EDGE
+	db 55, FLARE_BLITZ
+	db 60, CLOSE_COMBAT
+	db 0
+
 MagikarpEvosMoves:
 ; Evolutions
 	db EVOLVE_LEVEL, 20, GYARADOS
@@ -4799,6 +4884,69 @@ MDragoniteEvosMoves:
 	db 75, HURRICANE
 	db 0
 
+MeltanEvosMoves:
+; Evolutions
+    db EVOLVE_LEVEL, 60, MELMETAL
+	db 0
+; Learnset
+    db 1, HEADBUTT
+	db 1, HARDEN
+	db 9, TAIL_WHIP
+	db 18, THUNDER_WAVE
+	db 27, THUNDERSHOCK
+	db 36, ACID_ARMOR
+	db 45, FLASH_CANNON
+	db 0
+
+MelmetalEvosMoves:
+; Evolutions
+	db 0
+; Learnset
+    db 1, HEADBUTT
+	db 1, HARDEN
+	db 1, TAIL_WHIP
+	db 1, THUNDER_WAVE
+	db 27, THUNDERSHOCK
+	db 36, ACID_ARMOR
+	db 45, FLASH_CANNON
+	db 60, THUNDERPUNCH
+	db 65, MEGA_PUNCH
+	db 72, DBLIRONBASH
+	db 80, SUPERPOWER
+	db 88, HYPER_BEAM
+	db 0
+
+ScreamTailEvosMoves:
+; Evolutions
+	db 0
+; Learnset
+    db 1, DISABLE
+	db 1, POUND
+	db 1, SING
+	db 12, BITE
+	db 20, BODY_SLAM
+	db 28, REST
+	db 36, PLAY_ROUGH
+	db 44, ZEN_HEADBUTT
+	db 52, CRUNCH
+	db 60, PSYCHIC_M
+	db 0
+
+SandyShocksEvosMoves:
+; Evolutions
+	db 0
+; Learnset
+    db 1, THUNDERSHOCK
+	db 1, SUPERSONIC
+	db 20, MUD_SLAP
+	db 28, SHOCK_WAVE
+	db 36, MUD_SHOT
+	db 44, TRI_ATTACK
+	db 52, THUNDER_WAVE
+	db 60, THUNDERBOLT
+	db 68, EARTH_POWER
+	db 0
+	
 MewtwoEvosMoves:
 ; Evolutions
 IF DEF (_RED)

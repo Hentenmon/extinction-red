@@ -42,7 +42,7 @@
 	const DEX_ARAICHU     
 	const DEX_SANDSHREW  
 	const DEX_SANDSLASH
-;	const DEX_ASANDSHREW
+	const DEX_ASANDSHREW
 	const DEX_ASANDSLASH  
 	const DEX_NIDORAN_F  
 	const DEX_NIDORINA   
@@ -211,9 +211,9 @@
 	const DEX_PINSIR   
 	const DEX_MPINSIR  
 	const DEX_TAUROS  
-;	const DEX_PTAUROSC
-;	const DEX_PTAUROSA   
-;	const DEX_PTAUROSB      
+	const DEX_PTAUROSC
+	const DEX_PTAUROSA   
+	const DEX_PTAUROSB      
 	const DEX_MAGIKARP   
 	const DEX_GYARADOS
 	const DEX_MGYARADOS   
@@ -249,10 +249,10 @@
 	const DEX_DRAGONAIR  
 	const DEX_DRAGONITE
 	const DEX_MDRAGONITE
-;	const DEX_MELTAN
-;	const DEX_MELMETAL
-;	const DEX_SCREAMTAIL
-;	const DEX_SANDYSHOCKS  
+	const DEX_MELTAN
+	const DEX_MELMETAL
+	const DEX_SCREAMTAIL
+	const DEX_SANDYSHOCKS  
 	const DEX_MEWTWO
 	const DEX_MMEWTWOX
 	const DEX_MMEWTWOY     

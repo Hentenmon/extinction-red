@@ -65,6 +65,7 @@ CreditsTextPointers:
 	dw CredFukui
 	dw CredClub
 	dw CredPAAD
+	dw CredHentenmon
 	assert_table_length NUM_CRED_STRINGS
 
 CredVersion:
@@ -200,3 +201,5 @@ CredClub:
 	db -9, "NCL SUPER MARIO CLUB@"
 CredPAAD:
 	db -5, "PAAD TESTING@"
+CredHentenmon:
+	db -9, "HENTENMON@"

@@ -210,7 +210,6 @@ AttackAnimationPointers:
 	dw LeafStormAnim
 	dw EnergyBallAnim
 	dw FrenzyPlantAnim
-;	dw ZapCannonAnim
 	dw ShockWaveAnim
 	dw WildChargeAnim
 	dw VoltTackleAnim
@@ -922,7 +921,6 @@ SmokeScreenAnim:
 	battle_anim NO_MOVE, SE_RESET_SCREEN_PALETTE
 	db -1 ; end
 
-DracoMeteorAnim: ; here until better is found
 ConfuseRayAnim:
 	battle_anim CONFUSE_RAY, SE_DARK_SCREEN_PALETTE
 	battle_anim NO_MOVE, SUBANIM_1_STAR_BIG_TOSS, 1, 6
@@ -1548,12 +1546,6 @@ FrenzyPlantAnim:
 	battle_anim NO_MOVE, SE_RESET_SCREEN_PALETTE
 	db -1 ; end
 
-; ZapCannonAnim:
-;     battle_anim CONFUSE_RAY, SUBANIM_1_STAR_BIG_TOSS, 1, 6
-; 	battle_anim THUNDERBOLT, SUBANIM_1_LIGHTNING_BALL, 1, 1
-; 	battle_anim THUNDERBOLT, SUBANIM_1_LIGHTNING_BALL, 1, 1
-; 	db -1 ; end
-
 ShockWaveAnim:
 	battle_anim THUNDER_WAVE, SE_WAVY_SCREEN
 	battle_anim THUNDERSHOCK, SUBANIM_1_LIGHTNING, 1, 6
@@ -1614,6 +1606,15 @@ OutrageAnim:
 DragonClawAnim:
     battle_anim DRAGON_RAGE, SUBANIM_1_FLAME_BEAM, 1, 10
 	battle_anim SLASH, SUBANIM_0_SLICE, 1, 6
+	db -1 ; end
+
+DracoMeteorAnim:
+    battle_anim LEECH_SEED, SE_DARK_SCREEN_PALETTE
+	battle_anim NO_MOVE, SE_SPIRAL_BALLS_INWARD
+    battle_anim ROCK_SLIDE, SUBANIM_0_ROCKS_LIFT, 0, 4
+	battle_anim ROCK_SLIDE, SUBANIM_0_ROCKS_TOSS, 0, 3
+	battle_anim HYPER_FANG, SUBANIM_1_STAR_BIG_MOVING, 1, 6
+	battle_anim NO_MOVE, SE_RESET_SCREEN_PALETTE
 	db -1 ; end
 
 FeintAttackAnim:

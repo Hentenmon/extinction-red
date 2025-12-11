@@ -38,7 +38,7 @@ MonPartyData:
 	nybble ICON_FAIRY     ; ARaichu
 	nybble ICON_MON       ; Sandshrew
 	nybble ICON_MON       ; Sandslash
-;	nybble ICON_MON       ; ASandshrew
+	nybble ICON_MON       ; ASandshrew
 	nybble ICON_MON       ; ASandslash
 	nybble ICON_MON       ; NidoranF
 	nybble ICON_MON       ; Nidorina
@@ -207,9 +207,9 @@ MonPartyData:
 	nybble ICON_BUG       ; Pinsir
 	nybble ICON_BUG       ; MPinsir
 	nybble ICON_QUADRUPED ; Tauros
-;	nybble ICON_QUADRUPED ; PTaurosC
-;	nybble ICON_QUADRUPED ; PTaurosA
-;	nybble ICON_QUADRUPED ; PTaurosB
+	nybble ICON_QUADRUPED ; PTaurosC
+	nybble ICON_QUADRUPED ; PTaurosA
+	nybble ICON_QUADRUPED ; PTaurosB
 	nybble ICON_WATER     ; Magikarp
 	nybble ICON_SNAKE     ; Gyarados
 	nybble ICON_SNAKE     ; MGyarados
@@ -232,8 +232,8 @@ MonPartyData:
 	nybble ICON_HELIX     ; Kabuto
 	nybble ICON_HELIX     ; Kabutops
 	nybble ICON_BIRD      ; Aerodactyl
-	nybble ICON_BIRD      ; Aerodactyl
-	nybble ICON_MON       ; Snorlax
+	nybble ICON_BIRD      ; MAerodactyl
+	nybble ICON_MON       ; Munchlax
 	nybble ICON_MON       ; Snorlax
 	nybble ICON_BIRD      ; Articuno
 	nybble ICON_BIRD      ; Zapdos
@@ -245,10 +245,10 @@ MonPartyData:
 	nybble ICON_SNAKE     ; Dragonair
 	nybble ICON_SNAKE     ; Dragonite
 	nybble ICON_SNAKE     ; Dragonite
-;	nybble ICON_BALL      ; Meltan
-;	nybble ICON_BALL      ; Melmetal
-;	nybble ICON_FAIRY     ; Scream tail
-;	nybble ICON_BALL      ; sandy shocks
+	nybble ICON_BALL      ; Meltan
+	nybble ICON_BALL      ; Melmetal
+	nybble ICON_FAIRY     ; Scream tail
+	nybble ICON_BALL      ; sandy shocks
 	nybble ICON_MON       ; Mewtwo
 	nybble ICON_MON       ; MMewtwoX
 	nybble ICON_MON       ; MMewtwoY

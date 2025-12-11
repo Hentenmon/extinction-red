@@ -755,35 +755,35 @@ _TaurosDexEntry::
 	next "something"
 	dex
 
-; _PTaurosCDexEntry::
-; 	text "Very muscular,"
-; 	next "excels at close-"
-; 	next "quarters. This"
-; 
-; 	page "form of Tauros"
-; 	next "is just a strong"
-; 	next "Tauros."
-; 	dex
-; 
-; _PTaurosADexEntry::
-; 	text "Very muscular,"
-; 	next "excels at close-"
-; 	next "quarters. This"
-; 
-; 	page "form of Tauros"
-; 	next "can shoot water"
-; 	next "and swim"
-; 	dex
-; 
-; _PTaurosBDexEntry::
-; 	text "Very muscular,"
-; 	next "excels at close-"
-; 	next "quarters. This"
-; 
-; 	page "form of Tauros"
-; 	next "heats its horns"
-; 	next "to 1800F"
-; 	dex
+_PTaurosCDexEntry::
+	text "Very muscular,"
+	next "excels at close-"
+	next "quarters. This"
+
+	page "form of Tauros"
+	next "is just a strong"
+	next "Tauros."
+	dex
+
+_PTaurosADexEntry::
+	text "Very muscular,"
+	next "excels at close-"
+	next "quarters. This"
+
+	page "form of Tauros"
+	next "can shoot water"
+	next "and swim"
+	dex
+
+_PTaurosBDexEntry::
+	text "Very muscular,"
+	next "excels at close-"
+	next "quarters. This"
+
+	page "form of Tauros"
+	next "heats its horns"
+	next "to 1800F"
+	dex
 
 _MagikarpDexEntry::
 	text "Famous for being"
@@ -1132,45 +1132,45 @@ _MDragoniteDexEntry::
 	next "onents with mercy"
 	dex
 
-; _MeltanDexEntry::
-; 	text "Typically living"
-; 	next "in a group, this"
-; 	next "#MON absorbs"
-; 
-; 	page "particles of iron"
-; 	next "that it finds"
-; 	next "in the subsoil"
-; 	dex
-; 	
-; _MelmetalDexEntry::
-; 	text "A myth from over"
-; 	next "3,000 years ago"
-; 	next "depicted it as a"
-; 
-; 	page "giant with the"
-; 	next "ability to create"
-; 	next "iron from nothing"
-; 	dex
-; 
-; _ScreamTailDexEntry::
-; 	text "It resembles a"
-; 	next "creature depicted"
-; 	next "in a strange book,"
-; 
-; 	page "believed to be a"
-; 	next "JIGGLYPUFF from"
-; 	next "ancient times"
-; 	dex
-; 	
-; _SandyShocksDexEntry::
-; 	text "Shares many traits"
-; 	next "with an ancient"
-; 	next "MAGNETON described"
-; 
-; 	page "in a mysterious"
-; 	next "book, but little"
-; 	next "else is known"
-; 	dex
+_MeltanDexEntry::
+	text "Typically living"
+	next "in a group, this"
+	next "#MON absorbs"
+
+	page "particles of iron"
+	next "that it finds"
+	next "in the subsoil"
+	dex
+	
+_MelmetalDexEntry::
+	text "A myth from over"
+	next "3,000 years ago"
+	next "depicted it as a"
+
+	page "giant with the"
+	next "ability to create"
+	next "iron from nothing"
+	dex
+
+_ScreamTailDexEntry::
+	text "It resembles a"
+	next "creature depicted"
+	next "in a strange book,"
+
+	page "believed to be a"
+	next "JIGGLYPUFF from"
+	next "ancient times"
+	dex
+	
+_SandyShocksDexEntry::
+	text "Shares many traits"
+	next "with an ancient"
+	next "MAGNETON described"
+
+	page "in a mysterious"
+	next "book, but little"
+	next "else is known"
+	dex
 
 _MewtwoDexEntry::
 	text "Its DNA is almost"

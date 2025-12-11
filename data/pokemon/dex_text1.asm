@@ -375,15 +375,15 @@ _SandslashDexEntry::
 	next "day"
 	dex
 
-; _ASandshrewDexEntry::
-; 	text "Its ice-covered"
-; 	next "body lets it slide"
-; 	next "across the ground"
-; 
-; 	page "very fast, sending"
-; 	next "enemies flying"
-; 	next "when it hits them"
-; 	dex
+_ASandshrewDexEntry::
+	text "Its ice-covered"
+	next "body lets it slide"
+	next "across the ground"
+
+	page "very fast, sending"
+	next "enemies flying"
+	next "when it hits them"
+	dex
 
 _ASandslashDexEntry::
 	text "This #MON's"

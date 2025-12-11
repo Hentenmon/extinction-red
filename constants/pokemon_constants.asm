@@ -45,7 +45,7 @@
 	const A_RAICHU             
 	const SANDSHREW          
 	const SANDSLASH
-;	const A_SANDSHREW
+	const A_SANDSHREW
 	const A_SANDSLASH          
 	const NIDORAN_F          
 	const NIDORINA           
@@ -214,9 +214,9 @@
 	const PINSIR
 	const MPINSIR             
 	const TAUROS 
-;	const P_TAUROSC
-;	const P_TAUROSA
-;	const P_TAUROSB            
+	const P_TAUROSC
+	const P_TAUROSA
+	const P_TAUROSB            
 	const MAGIKARP           
 	const GYARADOS
 	const MGYARADOS           
@@ -252,10 +252,10 @@
 	const DRAGONAIR          
 	const DRAGONITE
 	const MDRAGONITE
-;	const MELTAN
-;	const MELMETAL
-;	const SCREAMTAIL
-;	const SANDYSHOCKS          
+	const MELTAN
+	const MELMETAL
+	const SCREAMTAIL
+	const SANDYSHOCKS          
 	const MEWTWO  
 	const MMEWTWOX
 	const MMEWTWOY           
