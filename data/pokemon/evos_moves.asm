@@ -253,6 +253,7 @@ EvosMovesPointerTable:
 	dw MMewtwoXEvosMoves
 	dw MMewtwoYEvosMoves
 	dw MewEvosMoves
+	dw GodleEvosMoves
 ;	dw FossilKabutopsEvosMoves
 ;	dw FossilAerodactylEvosMoves
 	dw MonGhostEvosMoves
@@ -600,6 +601,7 @@ ButterfreeEvosMoves:
 WeedleEvosMoves:
 ; Evolutions
 	db EVOLVE_LEVEL, 7, KAKUNA
+	db EVOLVE_ITEM, TRUE_ORB, 1, GODLE
 	db 0
 ; Learnset
     db 1, POISON_STING
@@ -1931,6 +1933,7 @@ ArcanineEvosMoves:
 	db 40, FLAMETHROWER
 	db 46, PLAY_ROUGH
 	db 52, FLARE_BLITZ
+	db 58, EXTREMESPEED
 	db 0
 
 HGrowlitheEvosMoves:
@@ -1959,8 +1962,8 @@ HArcanineEvosMoves:
 ; Learnset
 	db 1, BITE
 	db 1, ROAR
-	db 12, EMBER
-	db 18, AGILITY
+	db 1, EMBER
+	db 1, AGILITY
 	db 22, ROCK_THROW
 	db 25, HEADBUTT
 	db 30, CRUNCH
@@ -2832,8 +2835,8 @@ DewgongEvosMoves:
 	db 0
 ; Learnset
 	db 1, HEADBUTT
-	db 5, GROWL
-	db 12, AQUA_JET
+	db 1, GROWL
+	db 1, AQUA_JET
 	db 20, REST
 	db 25, AURORA_BEAM
 	db 30, TAKE_DOWN
@@ -5032,6 +5035,15 @@ MewEvosMoves:
 	db 90, HYPER_BEAM
 	db 99, TRANSFORM
 	db 100, SPLASH
+	db 0
+
+GodleEvosMoves:
+; Evolutions
+    db 0
+; Learnset
+    db 1, POISON_STING
+	db 1, STRING_SHOT
+    db 100, WEEDLE_STING
 	db 0
 
 ; FossilKabutopsEvosMoves:

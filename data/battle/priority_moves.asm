@@ -11,4 +11,5 @@ PriorityMovesList:
         db BULLET_PUNCH,   8
         db AQUA_JET,       8
        	db EXTREMESPEED,  9
+        db WEEDLE_STING, 12
         db -1 ; end

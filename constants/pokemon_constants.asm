@@ -259,7 +259,8 @@
 	const MEWTWO  
 	const MMEWTWOX
 	const MMEWTWOY           
-	const MEW       
+	const MEW
+	const GODLE       
 	const MON_GHOST        
 
 DEF NUM_POKEMON_INDEXES EQU const_value - 1
@@ -268,6 +269,7 @@ DEF NUM_POKEMON_INDEXES EQU const_value - 1
 DEF STARTER1 EQU CHARMANDER
 DEF STARTER2 EQU SQUIRTLE
 DEF STARTER3 EQU BULBASAUR
+DEF STARTER4 EQU PIKACHU
 
 ; ghost Marowak in Pokémon Tower
 DEF RESTLESS_SOUL EQU MAROWAK

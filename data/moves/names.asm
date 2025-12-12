@@ -245,6 +245,7 @@ MoveNames::
 
 ; power creep
     li "Psystrike"
+	li "Weedle Sting"
 	
 ; struggle
 	li "Struggle"

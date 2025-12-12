@@ -254,4 +254,5 @@ MonsterPalettes:
 	db PAL_PURPLEMON    ; MEWTWOx
 	db PAL_PURPLEMON    ; MEWTWOy
 	db PAL_PINKMON    ; MEW
+	db PAL_YELLOWMON  ; GODLE
 	assert_table_length NUM_POKEMON + 1

@@ -253,6 +253,7 @@ PokedexOrder:
 	db DEX_MMEWTWOX
 	db DEX_MMEWTWOY
 	db DEX_MEW
+	db DEX_GODLE
 ;	db 0
 ;	db 0
 	db 0

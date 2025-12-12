@@ -250,6 +250,7 @@
 	const TUNDERUSKICK
 	const FIERY_WRATH
 	const PSYSTRIKE
+	const WEEDLE_STING
 	const STRUGGLE     
 DEF NUM_ATTACKS EQU const_value - 1
 

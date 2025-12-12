@@ -255,7 +255,8 @@
 	const DEX_SANDYSHOCKS  
 	const DEX_MEWTWO
 	const DEX_MMEWTWOX
-	const DEX_MMEWTWOY     
-	const DEX_MEW        
+	const DEX_MMEWTWOY  
+	const DEX_MEW     
+	const DEX_GODLE      
 
 DEF NUM_POKEMON EQU const_value - 1

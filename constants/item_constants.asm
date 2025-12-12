@@ -98,6 +98,7 @@ DEF SAFARI_ROCK EQU CASCADEBADGE ; overload
 	const KINGS_ROCK    ; $56
 	const UPGRADE       ; $57
 	const DUBIOUSDISC   ; $58
+	const TRUE_ORB      ; $59
 DEF NUM_ITEMS EQU const_value - 1
 
 ; elevator floors use item IDs (see scripts/CeladonMartElevator.asm and scripts/SilphCoElevator.asm)

@@ -253,6 +253,7 @@ PokedexEntryPointers:
     dw MMewtwoXDexEntry
 	dw MMewtwoYDexEntry
 	dw MewDexEntry
+	dw MissingNoDexEntry
 ;	dw MissingNoDexEntry
 ;	dw MissingNoDexEntry
 	dw MissingNoDexEntry

@@ -11,6 +11,8 @@ TypeNames:
 	dw .Bug
 	dw .Ghost
 	dw .Steel
+	dw .Poison2
+	dw .Ground2
 
 REPT UNUSED_TYPES_END - UNUSED_TYPES
 	dw .Normal
@@ -47,3 +49,5 @@ ENDR
 .Steel:    db "Steel@"
 .Dark:     db "Dark@"
 .Fairy:    db "Fairy@"
+.Poison2:  db "Poison@"
+.Ground2:  db "Ground@"

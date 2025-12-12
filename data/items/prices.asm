@@ -88,6 +88,7 @@ ItemPrices::
 	bcd3 3000  ; KINGS_ROCK
 	bcd3 5000 ; UPGRADE
 	bcd3 10000  ; DUBIOUSDISC
+	bcd3 0     ; TRUE_ORB
 	assert_table_length NUM_ITEMS
 	bcd3 0     ; FLOOR_B2F
 	bcd3 0     ; FLOOR_B1F

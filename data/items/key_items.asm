@@ -88,4 +88,5 @@ KeyItemFlags:
 	dbit FALSE ; KINGSROCK
 	dbit FALSE ; UPGRADE
 	dbit FALSE ; DUBIOUSDISC
+	dbit FALSE ; TRUE_ORB
 	end_bit_array NUM_ITEMS

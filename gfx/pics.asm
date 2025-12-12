@@ -536,7 +536,8 @@ MMewtwoYPicFront::      INCBIN "gfx/pokemon/front/mmewtwoy.pic"
 MMewtwoYPicBack::       INCBIN "gfx/pokemon/back/mmewtwoyb.pic"
 MewPicFront::         INCBIN "gfx/pokemon/front/mew.pic"
 MewPicBack::          INCBIN "gfx/pokemon/back/mewb.pic"
-
+GodlePicFront::         INCBIN "gfx/pokemon/front/godle.pic"
+GodlePicBack::          INCBIN "gfx/pokemon/back/godleb.pic"
 
 SECTION "Trainer Pics", ROMX
 

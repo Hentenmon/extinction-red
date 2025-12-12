@@ -43,4 +43,5 @@ UsableItems_PartyMenu:
 	db KINGS_ROCK
 	db UPGRADE
 	db DUBIOUSDISC
+	db TRUE_ORB
 	db -1 ; end

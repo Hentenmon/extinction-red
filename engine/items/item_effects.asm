@@ -105,6 +105,7 @@ ItemUsePtrTable:
 	dw ItemUseEvoStone   ; KINGS_ROCK
 	dw ItemUseEvoStone   ; UPGRADE
 	dw ItemUseEvoStone   ; DUBIOUSDISC
+	dw ItemUseEvoStone   ; TRUE_ORB
 
 ItemUseBall:
 

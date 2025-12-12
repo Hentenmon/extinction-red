@@ -253,6 +253,7 @@ MonsterNames::
 	dname "<MEGA>MewtwoX"
 	dname "<MEGA>MewtwoY"
 	dname "Mew"
+	dname "Godle"
 ;	dname "MissingNo"
 ;	dname "MissingNo"
 	dname "MissingNo"

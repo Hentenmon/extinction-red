@@ -88,6 +88,7 @@ ItemNames::
 	li "Kings Rock"
     li "Up-Grade"
 	li "Dubious Disc"
+	li "True Orb"
 	assert_list_length NUM_ITEMS
 	li "B2F"
 	li "B1F"

@@ -253,4 +253,5 @@ MonPartyData:
 	nybble ICON_MON       ; MMewtwoX
 	nybble ICON_MON       ; MMewtwoY
 	nybble ICON_MON       ; Mew
+	nybble ICON_BUG       ; GODLE
 	end_nybble_array NUM_POKEMON

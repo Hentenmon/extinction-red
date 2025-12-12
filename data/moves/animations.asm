@@ -238,6 +238,7 @@ AttackAnimationPointers:
 	dw ThunderousKickAnim
 	dw FieryWrathAnim
 	dw PsystrikeAnim
+	dw WeedleStingAnim
 	dw StruggleAnim
 	assert_table_length NUM_ATTACKS
 
@@ -514,6 +515,7 @@ TailWhipAnim:
 	battle_anim AMNESIA, SE_RESET_MON_POSITION
 	db -1 ; end
 
+WeedleStingAnim:
 PoisonStingAnim:
 	battle_anim POISON_STING, SUBANIM_0_STAR, 0, 6
 	db -1 ; end

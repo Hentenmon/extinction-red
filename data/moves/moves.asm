@@ -135,7 +135,7 @@ Moves:
 	move LICK,         PARALYZE_SIDE_EFFECT2,       30, GHOST,        100, 30
 	move SMOG,         POISON_SIDE_EFFECT2,         30, POISON,        70, 20
 	move SLUDGE,       POISON_SIDE_EFFECT2,         65, POISON,       100, 20
-	move BONE_CLUB,    FLINCH_SIDE_EFFECT1,         65, GROUND,        85, 20
+	move BONE_CLUB,    FLINCH_SIDE_EFFECT1,         65, GROUND2,        85, 20
 	move FIRE_BLAST,   BURN_SIDE_EFFECT2,          110, FIRE,          85,  5
 	move WATERFALL,    FLINCH_SIDE_EFFECT2,         80, WATER,        100, 15
 	move CLAMP,        TRAPPING_EFFECT,             35, WATER,         85, 15
@@ -165,7 +165,7 @@ Moves:
 	move CRABHAMMER,   NO_ADDITIONAL_EFFECT,       100, WATER,         90, 10
 	move EXPLOSION,    EXPLODE_EFFECT,             170, NORMAL,       100,  5
 	move FURY_SWIPES,  TWO_TO_FIVE_ATTACKS_EFFECT,  18, NORMAL,       100, 15
-	move BONEMERANG,   ATTACK_TWICE_EFFECT,         50, GROUND,        90, 10
+	move BONEMERANG,   ATTACK_TWICE_EFFECT,         50, GROUND2,        90, 10
 	move REST,         HEAL_EFFECT,                  0, BIRD, 100,  5
 	move ROCK_SLIDE,   FLINCH_SIDE_EFFECT1,         75, ROCK,          90, 10
 	move HYPER_FANG,   FLINCH_SIDE_EFFECT1,         80, NORMAL,        90, 15
@@ -275,6 +275,7 @@ Moves:
 
 ; power creep
 	move PSYSTRIKE,    SPECIAL_DOWN1_EFFECT,       100, PSYCHIC_TYPE, 100, 10
+    move WEEDLE_STING, SWIFT_EFFECT,               200, POISON2,       100, 40 
 
 ; struggle
 	move STRUGGLE,     RECOIL_EFFECT,               50, BIRD,         100, 10

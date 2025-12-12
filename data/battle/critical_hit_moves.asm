@@ -7,4 +7,5 @@ HighCriticalMoves:
 	db SHADOW_CLAW
 	db PSYCHO_CUT
 	db NIGHT_SLASH
+	db WEEDLE_STING
 	db -1 ; end
