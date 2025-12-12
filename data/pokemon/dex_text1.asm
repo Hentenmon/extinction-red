@@ -352,7 +352,7 @@ _ARaichuDexEntry::
 
 	page "Another name for"
 	next "this #MON"
-	next "is hodad."
+	next "is hodad"
 	dex
 
 _SandshrewDexEntry::
