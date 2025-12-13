@@ -1,6 +1,6 @@
 	db DEX_LAPRAS ; pokedex id
 
-	db 130,  85,  80,  60,  95
+	db 140,  95,  90,  50, 105
 	;   hp  atk  def  spd  spc
 
 	db WATER, ICE ; type

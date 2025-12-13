@@ -1,6 +1,6 @@
 	db DEX_AMAROWAK ; pokedex id
 
-	db  60,  80, 110,  45,  50
+	db  60, 100, 110,  45,  80
 	;   hp  atk  def  spd  spc
 
 	db FIRE, GHOST ; type

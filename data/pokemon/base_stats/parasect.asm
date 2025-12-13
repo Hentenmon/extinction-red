@@ -1,6 +1,6 @@
 	db DEX_PARASECT ; pokedex id
 
-	db  60,  95,  80,  30,  80
+	db  80, 105, 110,  30, 100
 	;   hp  atk  def  spd  spc
 
 	db BUG, GRASS ; type
