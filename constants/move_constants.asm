@@ -188,10 +188,10 @@
 	const HURRICANE
 	const SLUDGE_BOMB
 	const POISON_JAB
+	const DRILL_RUN
 	const MUD_SLAP
 	const MUD_SHOT
 	const EARTH_POWER
-	const DRILL_RUN
 	const ROCK_TOMB
 	const HEAD_SMASH
 	const STONE_EDGE

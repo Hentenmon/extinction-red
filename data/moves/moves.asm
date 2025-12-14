@@ -194,10 +194,10 @@ Moves:
 	move SLUDGE_BOMB,  POISON_SIDE_EFFECT2,         90, POISON,       100, 10
 	move POISON_JAB,   POISON_SIDE_EFFECT2,         80, POISON,       100, 15
 
+    move DRILL_RUN,    NO_ADDITIONAL_EFFECT,        80, GROUND,        95, 10
 	move MUD_SLAP,     ACCURACY_DOWN1_EFFECT,       20, GROUND,       100, 10
 	move MUD_SHOT,     SPEED_DOWN1_EFFECT,          55, GROUND,        95, 15
 	move EARTH_POWER,  SPECIAL_DOWN_SIDE_EFFECT,    90, GROUND,       100, 10
-	move DRILL_RUN,    NO_ADDITIONAL_EFFECT,        80, GROUND,        95, 10
 
 	move ROCK_TOMB,    SPEED_DOWN1_EFFECT,          60, ROCK,         95,  15
 	move HEAD_SMASH,   RECOIL_EFFECT,              150, ROCK,         70,   5

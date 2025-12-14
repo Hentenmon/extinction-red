@@ -181,10 +181,10 @@ MoveSoundTable:
 	db SFX_BATTLE_36,		   $00, $80 ; HURRICANE
 	db SFX_BATTLE_36,          $00, $80 ; SLUDGE_BOMB
 	db SFX_BATTLE_36,		   $00, $80 ; POISON_JAB
+	db SFX_BATTLE_36,		   $00, $80 ; DRILL_RUN
 	db SFX_BATTLE_36,		   $00, $80 ; MUD_SLAP
 	db SFX_BATTLE_36,		   $00, $80 ; MUD_SHOT
 	db SFX_BATTLE_36,		   $00, $80 ; EARTH_POWER
-	db SFX_BATTLE_36,		   $00, $80 ; DRILL_RUN
 	db SFX_BATTLE_36,		   $00, $80 ; ROCK_TOMB
 	db SFX_BATTLE_36,          $00, $80 ; HEAD_SMASH
 	db SFX_BATTLE_36,		   $00, $80 ; STONE_EDGE

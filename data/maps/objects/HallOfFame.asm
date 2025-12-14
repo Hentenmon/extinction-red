@@ -11,6 +11,6 @@ HallOfFame_Object:
 	def_bg_events
 
 	def_object_events
-	object_event  5,  2, SPRITE_OAK, STAY, DOWN, TEXT_HALLOFFAME_OAK
+	object_event  5,  2, SPRITE_BLUE, STAY, DOWN, TEXT_HALLOFFAME_OAK
 
 	def_warps_to HALL_OF_FAME

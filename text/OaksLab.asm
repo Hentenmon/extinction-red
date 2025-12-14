@@ -1,6 +1,6 @@
 _OaksLabRivalGrampsIsntAroundText::
 	text "<RIVAL>: Yo"
-	line "<PLAYER>! Gramps"
+	line "<PLAYER>! Blue"
 	cont "isn't around!"
 	done
 
@@ -56,32 +56,32 @@ _OaksLabReceivedMonText::
 	text_end
 
 _OaksLabLastMonText::
-	text "That's PROF.OAK's"
+	text "That's PROF.Blue's"
 	line "last #MON!"
 	done
 
 _OaksLabOak1WhichPokemonDoYouWantText::
-	text "OAK: Now, <PLAYER>,"
+	text "Blue: Now, <PLAYER>,"
 	line "which #MON do"
 	cont "you want?"
 	done
 
 _OaksLabOak1YourPokemonCanFightText::
-	text "OAK: If a wild"
+	text "Blue: If a wild"
 	line "#MON appears,"
 	cont "your #MON can"
 	cont "fight against it!"
 	done
 
 _OaksLabOak1RaiseYourYoungPokemonText::
-	text "OAK: <PLAYER>,"
+	text "Blue: <PLAYER>,"
 	line "raise your young"
 	cont "#MON by making"
 	cont "it fight!"
 	done
 
 _OaksLabOak1DeliverParcelText::
-	text "OAK: Oh, <PLAYER>!"
+	text "Blue: Oh, <PLAYER>!"
 
 	para "How is my old"
 	line "#MON?"
@@ -97,7 +97,7 @@ _OaksLabOak1DeliverParcelText::
 	line "something for me?"
 
 	para "<PLAYER> delivered"
-	line "OAK's PARCEL.@"
+	line "Blue's PARCEL.@"
 	text_end
 
 _OaksLabOak1ParcelThanksText::
@@ -115,7 +115,7 @@ _OaksLabOak1PokemonAroundTheWorldText::
 	done
 
 _OaksLabOak1ReceivedPokeballsText::
-	text "OAK: You can't get"
+	text "Blue: You can't get"
 	line "detailed data on"
 	cont "#MON by just"
 	cont "seeing them."
@@ -148,7 +148,7 @@ _OaksLabGivePokeballsExplanationText::
 	done
 
 _OaksLabOak1ComeSeeMeSometimesText::
-	text "OAK: Come see me"
+	text "Blue: Come see me"
 	line "sometimes."
 
 	para "I want to know how"
@@ -157,7 +157,7 @@ _OaksLabOak1ComeSeeMeSometimesText::
 	done
 
 _OaksLabOak1HowIsYourPokedexComingText::
-	text "OAK: Good to see "
+	text "Blue: Good to see "
 	line "you! How is your "
 	cont "#DEX coming? "
 	cont "Here, let me take"
@@ -175,7 +175,7 @@ _OaksLabOak2Text::
 	done
 
 _OaksLabGirlText::
-	text "PROF.OAK is the"
+	text "PROF.Blue is the"
 	line "authority on"
 	cont "#MON!"
 
@@ -191,7 +191,7 @@ _OaksLabRivalFedUpWithWaitingText::
 	done
 
 _OaksLabOakChooseMonText::
-	text "OAK: <RIVAL>?"
+	text "BLUE: <RIVAL>?"
 	line "Let me think..."
 
 	para "Oh, that's right,"
@@ -225,13 +225,13 @@ _OaksLabRivalWhatAboutMeText::
 	done
 
 _OaksLabOakBePatientText::
-	text "OAK: Be patient!"
+	text "BLUE: Be patient!"
 	line "<RIVAL>, you can"
 	cont "have one too!"
 	done
 
 _OaksLabOakDontGoAwayYetText::
-	text "OAK: Hey! Don't go"
+	text "BLUE: Hey! Don't go"
 	line "away yet!"
 	done
 
@@ -289,7 +289,7 @@ _OaksLabRivalWhatDidYouCallMeForText::
 	done
 
 _OaksLabOakIHaveARequestText::
-	text "OAK: Oh right! I"
+	text "BLUE: Oh right! I"
 	line "have a request"
 	cont "of you two."
 	done
@@ -309,7 +309,7 @@ _OaksLabOakMyInventionPokedexText::
 	done
 
 _OaksLabOakGotPokedexText::
-	text "OAK: <PLAYER> and"
+	text "BLUE: <PLAYER> and"
 	line "<RIVAL>! Take"
 	cont "these with you!"
 
@@ -323,42 +323,26 @@ _OaksLabOakThatWasMyDreamText::
 	cont "#MON in the"
 	cont "world..."
 
-	para "That was my dream!"
+	para "It's not anyone"
+	line "can do. It's po-"
+	cont "ssible, just ted-"
+	cont "ious."
 
-	para "But, I'm too old!"
-	line "I can't do it!"
-
-	para "So, I want you two"
-	line "to fulfill my"
-	cont "dream for me!"
-
-	para "Get moving, you"
-	line "two!"
-
-	para "This is a great"
-	line "undertaking in"
-	cont "#MON history!"
+	para "Do that. Or beco-"
+	line "me the champion."
+	cont "I don't care."
 	done
 
 _OaksLabRivalLeaveItAllToMeText::
 	text "<RIVAL>: Alright"
-	line "Gramps! Leave it"
-	cont "all to me!"
+	line "Blue!"
 
-	para "<PLAYER>, I hate to"
-	line "say it, but I"
-	cont "don't need you!"
-
-	para "I know! I'll"
-	line "borrow a TOWN MAP"
-	cont "from my sis!"
-
-	para "I'll tell her not"
-	line "to lend you one,"
-	cont "<PLAYER>! Hahaha!"
+	para "<PLAYER>, don't"
+	line "expect to see me"
+	cont "anywhere near!"
 	done
 
 _OaksLabScientistText::
 	text "I study #MON as"
-	line "PROF.OAK's AIDE."
+	line "PROF.BLUE's AIDE."
 	done

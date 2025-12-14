@@ -82,11 +82,11 @@ _ChampionsRoomRivalAfterBattleText::
 	done
 
 _ChampionsRoomOakText::
-	text "OAK: <PLAYER>!"
+	text "BLUE: <PLAYER>!"
 	done
 
 _ChampionsRoomOakCongratulatesPlayerText::
-	text "OAK: So, you won!"
+	text "BLUE: So, you won!"
 	line "Congratulations!"
 	cont "You're the new"
 	cont "#MON LEAGUE"
@@ -104,7 +104,7 @@ _ChampionsRoomOakCongratulatesPlayerText::
 	done
 
 _ChampionsRoomOakDisappointedWithRivalText::
-	text "OAK: <RIVAL>! I'm"
+	text "BLUE: <RIVAL>! I'm"
 	line "disappointed!"
 
 	para "I came when I"
@@ -130,7 +130,7 @@ _ChampionsRoomOakDisappointedWithRivalText::
 	done
 
 _ChampionsRoomOakComeWithMeText::
-	text "OAK: <PLAYER>!"
+	text "BLUE: <PLAYER>!"
 
 	para "You understand"
 	line "that your victory"

@@ -69,7 +69,7 @@ ItemNames::
 	li "X Speed"
 	li "X Special"
 	li "Coin Case"
-	li "Oak's Parcel"
+	li "Blues Parcel"
 	li "Item Finder"
 	li "Silph Scope"
 	li "Poké Flute"

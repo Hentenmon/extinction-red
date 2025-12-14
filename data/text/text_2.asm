@@ -1667,12 +1667,12 @@ _GetDexRatedText::
 
 _ClosedOaksPCText::
 	text "Closed link to"
-	line "PROF.OAK's PC.@"
+	line "PROF.Blue's PC.@"
 	text_end
 
 _AccessedOaksPCText::
 	text "Accessed PROF."
-	line "OAK's PC."
+	line "Blue's PC."
 
 	para "Accessed #DEX"
 	line "Rating System."
@@ -1698,7 +1698,7 @@ _OakSpeechText1::
 	line "Welcome to the"
 	cont "world of #MON!"
 
-	para "My name is OAK!"
+	para "My name is BLUE!"
 	line "People call me"
 	cont "the #MON PROF!"
 	prompt
@@ -1721,7 +1721,9 @@ _OakSpeechText2B::
 	para "Myself..."
 
 	para "I study #MON"
-	line "as a profession."
+	line "as a profession,"
+	cont "after my grandpa"
+	cont "OAK died.."
 	prompt
 
 _IntroducePlayerText::
@@ -1730,21 +1732,20 @@ _IntroducePlayerText::
 	prompt
 
 _IntroduceRivalText::
-	text "This is my grand-"
-	line "son. He's been"
-	cont "your rival since"
-	cont "you were a baby."
+	text "This is some "
+	line "random kid you'"
+	cont "re rivals with."
 
-	para "...Erm, what is"
-	line "his name again?"
+	para "What's his name?"
+	line "I wont judge."
 	prompt
 
 _OakSpeechText3::
 	text "<PLAYER>!"
 
-	para "Your very own"
-	line "#MON legend is"
-	cont "about to unfold!"
+	para "Go to the outside"
+	line "world and do your"
+	cont "best!"
 
 	para "A world of dreams"
 	line "and adventures"
@@ -1766,9 +1767,14 @@ _YourNameIsText::
 	prompt
 
 _HisNameIsText::
-	text "That's right! I"
-	line "remember now! His"
-	cont "name is <RIVAL>!"
+	text "<RIVAL>!"
+	line "Great name you"
+	cont "gave him."
+
+	para "Surprised you"
+	line "are the one"
+	cont "that gave him"
+	cont "his name, LOL."
 	prompt
 
 _WillBeTradedText::

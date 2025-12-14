@@ -1,6 +1,6 @@
 _ViridianMartClerkSayHiToOakText::
 	text "Okay! Say hi to"
-	line "PROF.OAK for me!"
+	line "PROF.Blue for me!"
 	done
 
 _ViridianMartClerkYouCameFromPalletTownText::
@@ -10,14 +10,14 @@ _ViridianMartClerkYouCameFromPalletTownText::
 
 _ViridianMartClerkParcelQuestText::
 	text "You know PROF."
-	line "OAK, right?"
+	line "Blue, right?"
 
 	para "His order came in."
 	line "Will you take it"
 	cont "to him?"
 
 	para "<PLAYER> got"
-	line "OAK's PARCEL!@"
+	line "Blue's PARCEL!@"
 	text_end
 
 _ViridianMartYoungsterText::
