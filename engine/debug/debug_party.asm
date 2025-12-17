@@ -17,17 +17,17 @@ DebugNewGameParty: ; unreferenced except in _DEBUG
 	; "Tsunekazu Ishihara: Exeggutor is my favorite. That's because I was
 	; always using this character while I was debugging the program."
 	; From https://web.archive.org/web/20000607152840/http://pocket.ign.com/news/14973.html
-	db EXEGGUTOR, 90
+	db SPEAROW, 100
 IF DEF(_DEBUG)
 	db GODLE, 100
 ELSE
 	db MEW, 20
 ENDC
-	db JOLTEON, 56
-	db DUGTRIO, 56
-	db ARTICUNO, 57
+	db ELECTIVIRE, 60
+	db MALAKAZAM, 60
+	db DRAGONITE, 60
 IF DEF(_DEBUG)
-	db PIKACHU, 5
+	db AERODACTYL, 60
 ENDC
 	db -1 ; end
 
@@ -66,28 +66,23 @@ IF DEF(_DEBUG)
 	ld [hli], a
 	ld [hl], a
 
-	; Jolteon gets Thunderbolt.
-	ld hl, wPartyMon3Moves + 3
-	ld a, THUNDERBOLT
+; mega Alakazam gets custom moves.
+	ld hl, wPartyMon4Moves
+	ld a, PSYCHIC_M
+	ld [hli], a
+	ld a, THUNDERPUNCH
+	ld [hli], a
+	ld a, SUBSTITUTE
+	ld [hli], a
+	ld a, DARK_PULSE
 	ld [hl], a
-	ld hl, wPartyMon3PP + 3
-	ld a, 15
-	ld [hl], a
-
-	; Articuno gets Fly.
-	ld hl, wPartyMon5Moves
-	ld a, FLY
-	ld [hl], a
-	ld hl, wPartyMon5PP
-	ld a, 15
-	ld [hl], a
-
-	; Pikachu gets Surf.
-	ld hl, wPartyMon6Moves + 2
-	ld a, SURF
-	ld [hl], a
-	ld hl, wPartyMon6PP + 2
-	ld a, 15
+	ld hl, wPartyMon4PP
+	ld a, 20
+	ld [hli], a
+	ld a, 20
+	ld [hli], a
+	ld a, 20
+	ld [hli], a
 	ld [hl], a
 
 	; Get some debug items.
