@@ -951,6 +951,23 @@ ARaichuEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
+	db 1, THUNDERSHOCK
+	db 1, GROWL
+	db 1, THUNDERBOLT
+	db 3, TAIL_WHIP
+	db 5, CHARM
+	db 8, THUNDER_WAVE
+	db 11, QUICK_ATTACK
+    db 16, HEADBUTT
+	db 20, PSYBEAM
+	db 26, SWIFT
+	db 30, THUNDERBOLT	
+	db 33, AGILITY
+	db 40, THUNDER
+	db 42, LIGHT_SCREEN
+	db 46, WILD_CHARGE
+	db 50, PSYCHIC_M
+	db 70, VOLT_TACKLE
 	db 0
 
 SandshrewEvosMoves:
