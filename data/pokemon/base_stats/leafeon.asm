@@ -14,9 +14,7 @@
 	db GROWTH_MEDIUM_FAST ; growth rate
 
 	; tm/hm learnset
-	tmhm TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  RAGE,         \
-	     MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         SWIFT,        \
-	     SKULL_BASH,   REST,         SUBSTITUTE
+	tmhm HEADBUTT, TOXIC, BODY_SLAM, DOUBLE_EDGE, HYPER_BEAM, MUD_SLAP, GIGA_DRAIN, SOLARBEAM, DIG, CHARM, DOUBLE_TEAM, REFLECT, SWIFT, SHADOW_BALL, REST, BULLET_SEED, SUBSTITUTE
 	; end
 
 	db BANK(LeafeonPicFront)

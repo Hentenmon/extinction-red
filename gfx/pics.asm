@@ -138,11 +138,11 @@ ParasectPicFront::    INCBIN "gfx/pokemon/front/parasect.pic"
 ParasectPicBack::     INCBIN "gfx/pokemon/back/parasectb.pic"
 VenonatPicFront::     INCBIN "gfx/pokemon/front/venonat.pic"
 VenonatPicBack::      INCBIN "gfx/pokemon/back/venonatb.pic"
-VenomothPicFront::    INCBIN "gfx/pokemon/front/venomoth.pic"
-VenomothPicBack::     INCBIN "gfx/pokemon/back/venomothb.pic"
 
 SECTION "Pics 3", ROMX
 
+VenomothPicFront::    INCBIN "gfx/pokemon/front/venomoth.pic"
+VenomothPicBack::     INCBIN "gfx/pokemon/back/venomothb.pic"
 DiglettPicFront::     INCBIN "gfx/pokemon/front/diglett.pic"
 DiglettPicBack::      INCBIN "gfx/pokemon/back/diglettb.pic"
 DugtrioPicFront::     INCBIN "gfx/pokemon/front/dugtrio.pic"

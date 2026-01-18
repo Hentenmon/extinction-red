@@ -14,9 +14,7 @@
 	db GROWTH_MEDIUM_FAST ; growth rate
 
 	; tm/hm learnset
-	tmhm RAZOR_WIND,   TOXIC,        TAKE_DOWN,    DOUBLE_EDGE,  \
-	     RAGE,         MEGA_DRAIN,   MIMIC,        DOUBLE_TEAM,  BIDE,         \
-	     SWIFT,        REST,         SUBSTITUTE
+	tmhm HEADBUTT, TOXIC, ROOST, AERIAL_ACE, DOUBLE_EDGE, HURRICANE, SLUDGE_BOMB, GIGA_DRAIN, DOUBLE_TEAM, REFLECT, SWIFT, SHADOW_BALL, REST, DARK_PULSE, FLY, FLASH
 	; end
 
 	db BANK(ZubatPicFront)

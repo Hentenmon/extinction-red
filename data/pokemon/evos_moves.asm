@@ -750,6 +750,7 @@ MPidgeotEvosMoves:
 	db 58, BRAVE_BIRD
 	db 64, EXTREMESPEED
 	db 70, HURRICANE
+	db 70, HEAT_WAVE
 	db 0
 
 RattataEvosMoves:
@@ -3855,7 +3856,6 @@ MStarmieEvosMoves:
 	db 42, WATERFALL
 	db 46, RECOVER
 	db 52, HYDRO_PUMP
-	db 55, SWORDS_DANCE
 	db 60, ZEN_HEADBUTT
 	db 60, CLOSE_COMBAT
 	db 0
@@ -3996,6 +3996,7 @@ KleavorEvosMoves:
 	db 35, ROCK_SLIDE
 	db 42, SWORDS_DANCE
 	db 42, AGILITY
+	db 48, STONE_EDGE
 	db 0
 
 SmoochumEvosMoves:
